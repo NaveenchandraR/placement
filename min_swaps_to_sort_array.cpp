@@ -25,8 +25,7 @@ int main() {
 	    
 	    else
 	    {
-	        swap(vec[i].first, vec[vec[i].second].first);
-	        swap(vec[i].second, vec[vec[i].second].second);
+	        swap(vec[i], vec[vec[i].second]);
 	    }
 	    
 	    if(vec[i].second != i) i--;
